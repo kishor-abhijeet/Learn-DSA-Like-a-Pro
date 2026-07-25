@@ -39,3 +39,18 @@ class Solution {
         return ans;
     }
 };
+
+
+//for right view 
+// while(n--){
+//     Node* temp = q.front();
+//     q.pop();
+//     if(temp->right){
+//         q.push(temp->right);
+//     }
+
+//     if(temp->left){
+//         q.push(temp->left);
+//     }
+
+// }
