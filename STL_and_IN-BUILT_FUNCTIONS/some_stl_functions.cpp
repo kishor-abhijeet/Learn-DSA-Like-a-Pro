@@ -26,5 +26,9 @@ if (isalnum(ch1)) {
         for(auto &w: words){
             cout<<w<<" ";
         }
-
+//5. clamp in c++
+        clamp(v, x1,x2)
+        //it return like this: x1: if(v < x1)
+        //                     x2: if(x2 < v)
+        // otherwise it return v
 
